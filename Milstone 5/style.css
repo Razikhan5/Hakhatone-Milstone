@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 650px;
+}
+
+h1 {
+    text-align: center;
+    color: #2a9d8f;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 2px solid #2a9d8f;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e9f5f2;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: #264653;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #264653;
+}
+
+/* Input and Textarea Styling */
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid #2a9d8f;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+}
+
+input:focus, textarea:focus {
+    border-color: #264653;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    display: block;
+    width: 100%;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #21867a;
+}
+
+/* Resume Display Section */
+#resume-display {
+    max-width: 650px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid #2a9d8f;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#resume-display h2 {
+    color: #2a9d8f;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#resume-display p {
+    color: #264653;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Rounded Image Styling */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+    border: 3px solid #2a9d8f;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
